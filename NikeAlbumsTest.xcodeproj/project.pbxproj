@@ -26,6 +26,7 @@
 		D5403A0C25AD65EB00557716 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A0B25AD65EB00557716 /* Library.swift */; };
 		D5403A1125AD664500557716 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A1025AD664500557716 /* Client.swift */; };
 		D5403A1625AD66CC00557716 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A1525AD66CC00557716 /* ImageLoader.swift */; };
+		D5403A1C25AD6B9900557716 /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A1B25AD6B9900557716 /* DateFormatterExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		D5403A0B25AD65EB00557716 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		D5403A1025AD664500557716 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		D5403A1525AD66CC00557716 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D5403A1B25AD6B9900557716 /* DateFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				D54039F125AD653100557716 /* Models */,
 				D5403A0A25AD65DB00557716 /* Services */,
 				D54039FF25AD658C00557716 /* Protocols */,
+				D5403A1A25AD6B7F00557716 /* Extensions */,
 				D540399925AD60A000557716 /* Assets.xcassets */,
 				D540399B25AD60A000557716 /* LaunchScreen.storyboard */,
 				D540399E25AD60A000557716 /* Info.plist */,
@@ -191,6 +194,14 @@
 				D5403A1525AD66CC00557716 /* ImageLoader.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		D5403A1A25AD6B7F00557716 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5403A1B25AD6B9900557716 /* DateFormatterExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +343,7 @@
 				D54039F325AD654300557716 /* Album.swift in Sources */,
 				D5403A0125AD65A200557716 /* Librariable.swift in Sources */,
 				D5403A1125AD664500557716 /* Client.swift in Sources */,
+				D5403A1C25AD6B9900557716 /* DateFormatterExtensions.swift in Sources */,
 				D54039EA25AD64A500557716 /* AlbumsModels.swift in Sources */,
 				D540399125AD609E00557716 /* AppDelegate.swift in Sources */,
 				D5403A0625AD65B800557716 /* Requestable.swift in Sources */,
