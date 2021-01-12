@@ -8,9 +8,9 @@
 import Foundation
 
 class AlbumsListPresenter {
-    var viewController: AlbumsListViewController?
+    var viewController: AlbumsListDisplayable?
     
-    init(viewController: AlbumsListViewController) {
+    init(viewController: AlbumsListDisplayable) {
         self.viewController = viewController
     }
     

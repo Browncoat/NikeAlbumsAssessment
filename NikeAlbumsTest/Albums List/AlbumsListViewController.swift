@@ -8,11 +8,16 @@
 import UIKit
 import Combine
 
+protocol AlbumsListDisplayable {
+    func display(viewModel: AlbumsModels.ViewModel)
+    func display(error: Error)
+}
+
 enum Section: CaseIterable {
     case main
 }
 
-class AlbumsListViewController: UIViewController {
+class AlbumsListViewController: UIViewController, AlbumsListDisplayable {
     
     let customView = AlbumListView()
     
