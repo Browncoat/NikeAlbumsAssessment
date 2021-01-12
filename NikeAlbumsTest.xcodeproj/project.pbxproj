@@ -18,6 +18,7 @@
 		D54039DB25AD634F00557716 /* AlbumCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039DA25AD634F00557716 /* AlbumCellContentView.swift */; };
 		D54039E025AD638B00557716 /* AlbumsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039DF25AD638B00557716 /* AlbumsListInteractor.swift */; };
 		D54039E525AD63C300557716 /* AlbumsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039E425AD63C300557716 /* AlbumsListPresenter.swift */; };
+		D54039EA25AD64A500557716 /* AlbumsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039E925AD64A500557716 /* AlbumsModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D54039DA25AD634F00557716 /* AlbumCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCellContentView.swift; sourceTree = "<group>"; };
 		D54039DF25AD638B00557716 /* AlbumsListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListInteractor.swift; sourceTree = "<group>"; };
 		D54039E425AD63C300557716 /* AlbumsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListPresenter.swift; sourceTree = "<group>"; };
+		D54039E925AD64A500557716 /* AlbumsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				D54039DA25AD634F00557716 /* AlbumCellContentView.swift */,
 				D54039DF25AD638B00557716 /* AlbumsListInteractor.swift */,
 				D54039E425AD63C300557716 /* AlbumsListPresenter.swift */,
+				D54039E925AD64A500557716 /* AlbumsModels.swift */,
 			);
 			path = "Albums List";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				D54039E025AD638B00557716 /* AlbumsListInteractor.swift in Sources */,
 				D54039DB25AD634F00557716 /* AlbumCellContentView.swift in Sources */,
 				D54039D325AD62D200557716 /* AlbumsListView.swift in Sources */,
+				D54039EA25AD64A500557716 /* AlbumsModels.swift in Sources */,
 				D540399125AD609E00557716 /* AppDelegate.swift in Sources */,
 				D540399325AD609E00557716 /* SceneDelegate.swift in Sources */,
 			);
