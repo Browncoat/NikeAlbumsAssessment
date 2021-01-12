@@ -24,6 +24,7 @@
 		D5403A0125AD65A200557716 /* Librariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A0025AD65A200557716 /* Librariable.swift */; };
 		D5403A0625AD65B800557716 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A0525AD65B800557716 /* Requestable.swift */; };
 		D5403A0C25AD65EB00557716 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A0B25AD65EB00557716 /* Library.swift */; };
+		D5403A1125AD664500557716 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A1025AD664500557716 /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		D5403A0025AD65A200557716 /* Librariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Librariable.swift; sourceTree = "<group>"; };
 		D5403A0525AD65B800557716 /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
 		D5403A0B25AD65EB00557716 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		D5403A1025AD664500557716 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				D5403A0B25AD65EB00557716 /* Library.swift */,
+				D5403A1025AD664500557716 /* Client.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				D54039D325AD62D200557716 /* AlbumsListView.swift in Sources */,
 				D54039F325AD654300557716 /* Album.swift in Sources */,
 				D5403A0125AD65A200557716 /* Librariable.swift in Sources */,
+				D5403A1125AD664500557716 /* Client.swift in Sources */,
 				D54039EA25AD64A500557716 /* AlbumsModels.swift in Sources */,
 				D540399125AD609E00557716 /* AppDelegate.swift in Sources */,
 				D5403A0625AD65B800557716 /* Requestable.swift in Sources */,
