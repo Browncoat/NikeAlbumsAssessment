@@ -17,6 +17,7 @@
 		D54039D325AD62D200557716 /* AlbumsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039D225AD62D200557716 /* AlbumsListView.swift */; };
 		D54039DB25AD634F00557716 /* AlbumCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039DA25AD634F00557716 /* AlbumCellContentView.swift */; };
 		D54039E025AD638B00557716 /* AlbumsListViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039DF25AD638B00557716 /* AlbumsListViewInteractor.swift */; };
+		D54039E525AD63C300557716 /* AlbumsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039E425AD63C300557716 /* AlbumsListPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D54039D225AD62D200557716 /* AlbumsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListView.swift; sourceTree = "<group>"; };
 		D54039DA25AD634F00557716 /* AlbumCellContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCellContentView.swift; sourceTree = "<group>"; };
 		D54039DF25AD638B00557716 /* AlbumsListViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListViewInteractor.swift; sourceTree = "<group>"; };
+		D54039E425AD63C300557716 /* AlbumsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				D54039D225AD62D200557716 /* AlbumsListView.swift */,
 				D54039DA25AD634F00557716 /* AlbumCellContentView.swift */,
 				D54039DF25AD638B00557716 /* AlbumsListViewInteractor.swift */,
+				D54039E425AD63C300557716 /* AlbumsListPresenter.swift */,
 			);
 			path = "Albums List";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54039CB25AD62C700557716 /* AlbumsListViewController.swift in Sources */,
+				D54039E525AD63C300557716 /* AlbumsListPresenter.swift in Sources */,
 				D54039E025AD638B00557716 /* AlbumsListViewInteractor.swift in Sources */,
 				D54039DB25AD634F00557716 /* AlbumCellContentView.swift in Sources */,
 				D54039D325AD62D200557716 /* AlbumsListView.swift in Sources */,
