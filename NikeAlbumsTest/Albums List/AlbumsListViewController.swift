@@ -16,7 +16,7 @@ class AlbumsListViewController: UIViewController {
     
     let customView = AlbumListView()
     
-    let interactor: AlbumsListViewInteractor
+    let interactor: AlbumsListInteractor
                 
     var viewModel: AlbumsModels.ViewModel?
     
@@ -59,11 +59,11 @@ class AlbumsListViewController: UIViewController {
     }
     
     init() {
-        interactor = AlbumsListViewInteractor(library: Library(client: Client()))
+        interactor = AlbumsListInteractor(library: Library(client: Client()))
         
         super.init(nibName: nil, bundle: nil)
         
-        interactor.presenter = AlbumsListViewPresenter(viewController: self)
+        interactor.presenter = AlbumsListPresenter(viewController: self)
 
         navigationItem.title = NSLocalizedString("albums.list.title", comment: "ViewController Title")
         
