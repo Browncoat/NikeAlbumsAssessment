@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  NikeAlbumsTest
+
+  Created by Nate Potter on 1/11/21.
+  
+*/
+
+"albums.list.title" = "Top 100 Albums";
+"albums.detail.button-title" = "Open in iTunes";
+"albums.detail.genres-title" = "Genres";
+"albums.detail.release-date-title" = "Release Date";
+"albums.detail.copyright-title" = "Copyright";
+"albums.common.OK" = "OK";
+"albums.openURL.error.app-not-installed" = "Music application not installed";

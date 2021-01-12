@@ -29,6 +29,7 @@
 		D5403A1C25AD6B9900557716 /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A1B25AD6B9900557716 /* DateFormatterExtensions.swift */; };
 		D5403A2225AD6BFC00557716 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A2125AD6BFC00557716 /* AlbumDetailViewController.swift */; };
 		D5403A2A25AD6C1700557716 /* AlbumDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A2925AD6C1700557716 /* AlbumDetailView.swift */; };
+		D5403A3325AD6CA400557716 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5403A3525AD6CA400557716 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		D5403A1B25AD6B9900557716 /* DateFormatterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtensions.swift; sourceTree = "<group>"; };
 		D5403A2125AD6BFC00557716 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
 		D5403A2925AD6C1700557716 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
+		D5403A3425AD6CA400557716 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				D5403A1A25AD6B7F00557716 /* Extensions */,
 				D540399925AD60A000557716 /* Assets.xcassets */,
 				D540399B25AD60A000557716 /* LaunchScreen.storyboard */,
+				D5403A3525AD6CA400557716 /* Localizable.strings */,
 				D540399E25AD60A000557716 /* Info.plist */,
 			);
 			path = NikeAlbumsTest;
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D540399D25AD60A000557716 /* LaunchScreen.storyboard in Resources */,
+				D5403A3325AD6CA400557716 /* Localizable.strings in Resources */,
 				D540399A25AD60A000557716 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +410,14 @@
 				D540399C25AD60A000557716 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D5403A3525AD6CA400557716 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5403A3425AD6CA400557716 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
