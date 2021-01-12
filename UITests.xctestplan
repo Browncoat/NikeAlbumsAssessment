@@ -12,7 +12,13 @@
 
   },
   "testTargets" : [
-
+    {
+      "target" : {
+        "containerPath" : "container:NikeAlbumsTest.xcodeproj",
+        "identifier" : "D54039AD25AD60A000557716",
+        "name" : "NikeAlbumsTestUITests"
+      }
+    }
   ],
   "version" : 1
 }

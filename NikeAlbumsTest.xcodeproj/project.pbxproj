@@ -79,6 +79,8 @@
 		D5403A2125AD6BFC00557716 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
 		D5403A2925AD6C1700557716 /* AlbumDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailView.swift; sourceTree = "<group>"; };
 		D5403A3425AD6CA400557716 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D5C5263C25AD83CD0070C2A1 /* UnitTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnitTests.xctestplan; sourceTree = "<group>"; };
+		D5C5264025AD83DD0070C2A1 /* UITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,8 @@
 		D540398425AD609E00557716 = {
 			isa = PBXGroup;
 			children = (
+				D5C5263C25AD83CD0070C2A1 /* UnitTests.xctestplan */,
+				D5C5264025AD83DD0070C2A1 /* UITests.xctestplan */,
 				D540398F25AD609E00557716 /* NikeAlbumsTest */,
 				D54039A625AD60A000557716 /* NikeAlbumsTestTests */,
 				D54039B125AD60A000557716 /* NikeAlbumsTestUITests */,
