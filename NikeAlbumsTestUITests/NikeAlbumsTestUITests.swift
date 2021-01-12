@@ -39,4 +39,15 @@ class NikeAlbumsTestUITests: XCTestCase {
             }
         }
     }
+    
+    func testThatAlbumDetailViewsDisplayed() {
+        let app = XCUIApplication()
+        app.launch()
+        
+        app.collectionViews.cells.element(boundBy: 0).tap()
+        
+        let resultView = app.otherElements["album_detail"]
+        let viewExists = resultView.waitForExistence(timeout: 10)
+        XCTAssert(viewExists)
+    }
 }

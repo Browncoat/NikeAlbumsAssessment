@@ -48,7 +48,6 @@ class AlbumsListViewController: UIViewController, AlbumsListDisplayable {
             }
             
             cell.accessories = [.disclosureIndicator()]
-            
             cell.contentConfiguration = config
         }
     }()
