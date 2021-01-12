@@ -21,7 +21,7 @@ class AlbumsListViewController: UIViewController, AlbumsListDisplayable {
     
     let customView = AlbumListView()
     
-    let interactor: AlbumsListInteractor
+    var interactor: AlbumsListInteractor?
                 
     var viewModel: AlbumsModels.ViewModel?
     
@@ -63,11 +63,10 @@ class AlbumsListViewController: UIViewController, AlbumsListDisplayable {
     }
     
     init() {
-        interactor = AlbumsListInteractor(library: Library(client: Client()))
-        
         super.init(nibName: nil, bundle: nil)
         
-        interactor.presenter = AlbumsListPresenter(viewController: self)
+        interactor = AlbumsListInteractor(library: Library(client: Client()))
+        interactor?.presenter = AlbumsListPresenter(viewController: self)
 
         navigationItem.title = NSLocalizedString("albums.list.title", comment: "ViewController Title")
         
@@ -84,7 +83,7 @@ class AlbumsListViewController: UIViewController, AlbumsListDisplayable {
         customView.collectionView.dataSource = dataSource
         
         // with more time I would construct the path with path componenet parameters
-        interactor.fetch(request: AlbumsModels.Request(url: "/us/apple-music/top-albums/all/100/explicit.json"))
+        interactor?.fetch(request: AlbumsModels.Request(url: "/us/apple-music/top-albums/all/100/explicit.json"))
     }
     
     func display(viewModel: AlbumsModels.ViewModel) {
