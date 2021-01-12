@@ -9,3 +9,4 @@ import Combine
 
 protocol Requestable {
     func getResource<T>(at path: String) -> AnyPublisher<T, Error> where T: Decodable
+}
