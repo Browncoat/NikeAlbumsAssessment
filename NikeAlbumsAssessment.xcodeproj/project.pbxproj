@@ -11,8 +11,8 @@
 		D540399325AD609E00557716 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D540399225AD609E00557716 /* SceneDelegate.swift */; };
 		D540399A25AD60A000557716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D540399925AD60A000557716 /* Assets.xcassets */; };
 		D540399D25AD60A000557716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D540399B25AD60A000557716 /* LaunchScreen.storyboard */; };
-		D54039A825AD60A000557716 /* NikeAlbumsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039A725AD60A000557716 /* NikeAlbumsTestTests.swift */; };
-		D54039B325AD60A000557716 /* NikeAlbumsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039B225AD60A000557716 /* NikeAlbumsTestUITests.swift */; };
+		D54039A825AD60A000557716 /* NikeAlbumsAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039A725AD60A000557716 /* NikeAlbumsAssessmentTests.swift */; };
+		D54039B325AD60A000557716 /* NikeAlbumsAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039B225AD60A000557716 /* NikeAlbumsAssessmentUITests.swift */; };
 		D54039CB25AD62C700557716 /* AlbumsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039CA25AD62C700557716 /* AlbumsListViewController.swift */; };
 		D54039D325AD62D200557716 /* AlbumsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039D225AD62D200557716 /* AlbumsListView.swift */; };
 		D54039DB25AD634F00557716 /* AlbumCellContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039DA25AD634F00557716 /* AlbumCellContentView.swift */; };
@@ -50,17 +50,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D540398D25AD609E00557716 /* NikeAlbumsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeAlbumsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D540398D25AD609E00557716 /* NikeAlbumsAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeAlbumsAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D540399025AD609E00557716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D540399225AD609E00557716 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D540399925AD60A000557716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D540399C25AD60A000557716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D540399E25AD60A000557716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D54039A325AD60A000557716 /* NikeAlbumsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeAlbumsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D54039A725AD60A000557716 /* NikeAlbumsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeAlbumsTestTests.swift; sourceTree = "<group>"; };
+		D54039A325AD60A000557716 /* NikeAlbumsAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeAlbumsAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54039A725AD60A000557716 /* NikeAlbumsAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeAlbumsAssessmentTests.swift; sourceTree = "<group>"; };
 		D54039A925AD60A000557716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D54039AE25AD60A000557716 /* NikeAlbumsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeAlbumsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D54039B225AD60A000557716 /* NikeAlbumsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeAlbumsTestUITests.swift; sourceTree = "<group>"; };
+		D54039AE25AD60A000557716 /* NikeAlbumsAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeAlbumsAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54039B225AD60A000557716 /* NikeAlbumsAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeAlbumsAssessmentUITests.swift; sourceTree = "<group>"; };
 		D54039B425AD60A000557716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D54039CA25AD62C700557716 /* AlbumsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListViewController.swift; sourceTree = "<group>"; };
 		D54039D225AD62D200557716 /* AlbumsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListView.swift; sourceTree = "<group>"; };
@@ -113,9 +113,9 @@
 			children = (
 				D5C5263C25AD83CD0070C2A1 /* UnitTests.xctestplan */,
 				D5C5264025AD83DD0070C2A1 /* UITests.xctestplan */,
-				D540398F25AD609E00557716 /* NikeAlbumsTest */,
-				D54039A625AD60A000557716 /* NikeAlbumsTestTests */,
-				D54039B125AD60A000557716 /* NikeAlbumsTestUITests */,
+				D540398F25AD609E00557716 /* NikeAlbumsAssessment */,
+				D54039A625AD60A000557716 /* NikeAlbumsAssessmentTests */,
+				D54039B125AD60A000557716 /* NikeAlbumsAssessmentUITests */,
 				D540398E25AD609E00557716 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,14 +123,14 @@
 		D540398E25AD609E00557716 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D540398D25AD609E00557716 /* NikeAlbumsTest.app */,
-				D54039A325AD60A000557716 /* NikeAlbumsTestTests.xctest */,
-				D54039AE25AD60A000557716 /* NikeAlbumsTestUITests.xctest */,
+				D540398D25AD609E00557716 /* NikeAlbumsAssessment.app */,
+				D54039A325AD60A000557716 /* NikeAlbumsAssessmentTests.xctest */,
+				D54039AE25AD60A000557716 /* NikeAlbumsAssessmentUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D540398F25AD609E00557716 /* NikeAlbumsTest */ = {
+		D540398F25AD609E00557716 /* NikeAlbumsAssessment */ = {
 			isa = PBXGroup;
 			children = (
 				D540399025AD609E00557716 /* AppDelegate.swift */,
@@ -146,25 +146,25 @@
 				D5403A3525AD6CA400557716 /* Localizable.strings */,
 				D540399E25AD60A000557716 /* Info.plist */,
 			);
-			path = NikeAlbumsTest;
+			path = NikeAlbumsAssessment;
 			sourceTree = "<group>";
 		};
-		D54039A625AD60A000557716 /* NikeAlbumsTestTests */ = {
+		D54039A625AD60A000557716 /* NikeAlbumsAssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				D54039A725AD60A000557716 /* NikeAlbumsTestTests.swift */,
+				D54039A725AD60A000557716 /* NikeAlbumsAssessmentTests.swift */,
 				D54039A925AD60A000557716 /* Info.plist */,
 			);
-			path = NikeAlbumsTestTests;
+			path = NikeAlbumsAssessmentTests;
 			sourceTree = "<group>";
 		};
-		D54039B125AD60A000557716 /* NikeAlbumsTestUITests */ = {
+		D54039B125AD60A000557716 /* NikeAlbumsAssessmentUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D54039B225AD60A000557716 /* NikeAlbumsTestUITests.swift */,
+				D54039B225AD60A000557716 /* NikeAlbumsAssessmentUITests.swift */,
 				D54039B425AD60A000557716 /* Info.plist */,
 			);
-			path = NikeAlbumsTestUITests;
+			path = NikeAlbumsAssessmentUITests;
 			sourceTree = "<group>";
 		};
 		D54039C925AD62B200557716 /* Albums List */ = {
@@ -228,9 +228,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D540398C25AD609E00557716 /* NikeAlbumsTest */ = {
+		D540398C25AD609E00557716 /* NikeAlbumsAssessment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D54039B725AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsTest" */;
+			buildConfigurationList = D54039B725AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsAssessment" */;
 			buildPhases = (
 				D540398925AD609E00557716 /* Sources */,
 				D540398A25AD609E00557716 /* Frameworks */,
@@ -240,14 +240,14 @@
 			);
 			dependencies = (
 			);
-			name = NikeAlbumsTest;
+			name = NikeAlbumsAssessment;
 			productName = NikeAlbumsTest;
-			productReference = D540398D25AD609E00557716 /* NikeAlbumsTest.app */;
+			productReference = D540398D25AD609E00557716 /* NikeAlbumsAssessment.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D54039A225AD60A000557716 /* NikeAlbumsTestTests */ = {
+		D54039A225AD60A000557716 /* NikeAlbumsAssessmentTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D54039BA25AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsTestTests" */;
+			buildConfigurationList = D54039BA25AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsAssessmentTests" */;
 			buildPhases = (
 				D540399F25AD60A000557716 /* Sources */,
 				D54039A025AD60A000557716 /* Frameworks */,
@@ -258,14 +258,14 @@
 			dependencies = (
 				D54039A525AD60A000557716 /* PBXTargetDependency */,
 			);
-			name = NikeAlbumsTestTests;
+			name = NikeAlbumsAssessmentTests;
 			productName = NikeAlbumsTestTests;
-			productReference = D54039A325AD60A000557716 /* NikeAlbumsTestTests.xctest */;
+			productReference = D54039A325AD60A000557716 /* NikeAlbumsAssessmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D54039AD25AD60A000557716 /* NikeAlbumsTestUITests */ = {
+		D54039AD25AD60A000557716 /* NikeAlbumsAssessmentUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D54039BD25AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsTestUITests" */;
+			buildConfigurationList = D54039BD25AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsAssessmentUITests" */;
 			buildPhases = (
 				D54039AA25AD60A000557716 /* Sources */,
 				D54039AB25AD60A000557716 /* Frameworks */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				D54039B025AD60A000557716 /* PBXTargetDependency */,
 			);
-			name = NikeAlbumsTestUITests;
+			name = NikeAlbumsAssessmentUITests;
 			productName = NikeAlbumsTestUITests;
-			productReference = D54039AE25AD60A000557716 /* NikeAlbumsTestUITests.xctest */;
+			productReference = D54039AE25AD60A000557716 /* NikeAlbumsAssessmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D540398825AD609E00557716 /* Build configuration list for PBXProject "NikeAlbumsTest" */;
+			buildConfigurationList = D540398825AD609E00557716 /* Build configuration list for PBXProject "NikeAlbumsAssessment" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -316,9 +316,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D540398C25AD609E00557716 /* NikeAlbumsTest */,
-				D54039A225AD60A000557716 /* NikeAlbumsTestTests */,
-				D54039AD25AD60A000557716 /* NikeAlbumsTestUITests */,
+				D540398C25AD609E00557716 /* NikeAlbumsAssessment */,
+				D54039A225AD60A000557716 /* NikeAlbumsAssessmentTests */,
+				D54039AD25AD60A000557716 /* NikeAlbumsAssessmentUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -380,7 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54039A825AD60A000557716 /* NikeAlbumsTestTests.swift in Sources */,
+				D54039A825AD60A000557716 /* NikeAlbumsAssessmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54039B325AD60A000557716 /* NikeAlbumsTestUITests.swift in Sources */,
+				D54039B325AD60A000557716 /* NikeAlbumsAssessmentUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,12 +397,12 @@
 /* Begin PBXTargetDependency section */
 		D54039A525AD60A000557716 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D540398C25AD609E00557716 /* NikeAlbumsTest */;
+			target = D540398C25AD609E00557716 /* NikeAlbumsAssessment */;
 			targetProxy = D54039A425AD60A000557716 /* PBXContainerItemProxy */;
 		};
 		D54039B025AD60A000557716 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D540398C25AD609E00557716 /* NikeAlbumsTest */;
+			target = D540398C25AD609E00557716 /* NikeAlbumsAssessment */;
 			targetProxy = D54039AF25AD60A000557716 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -550,12 +550,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KGUM74E5G;
-				INFOPLIST_FILE = NikeAlbumsTest/Info.plist;
+				INFOPLIST_FILE = NikeAlbumsAssessment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsAssessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -569,12 +569,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KGUM74E5G;
-				INFOPLIST_FILE = NikeAlbumsTest/Info.plist;
+				INFOPLIST_FILE = NikeAlbumsAssessment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsAssessment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -588,18 +588,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KGUM74E5G;
-				INFOPLIST_FILE = NikeAlbumsTestTests/Info.plist;
+				INFOPLIST_FILE = NikeAlbumsAssessmentTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsAssessmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeAlbumsTest.app/NikeAlbumsTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeAlbumsAssessment.app/NikeAlbumsAssessment";
 			};
 			name = Debug;
 		};
@@ -610,18 +610,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KGUM74E5G;
-				INFOPLIST_FILE = NikeAlbumsTestTests/Info.plist;
+				INFOPLIST_FILE = NikeAlbumsAssessmentTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsAssessmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeAlbumsTest.app/NikeAlbumsTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeAlbumsAssessment.app/NikeAlbumsAssessment";
 			};
 			name = Release;
 		};
@@ -631,17 +631,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KGUM74E5G;
-				INFOPLIST_FILE = NikeAlbumsTestUITests/Info.plist;
+				INFOPLIST_FILE = NikeAlbumsAssessmentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsAssessmentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NikeAlbumsTest;
+				TEST_TARGET_NAME = NikeAlbumsAssessment;
 			};
 			name = Debug;
 		};
@@ -651,24 +651,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8KGUM74E5G;
-				INFOPLIST_FILE = NikeAlbumsTestUITests/Info.plist;
+				INFOPLIST_FILE = NikeAlbumsAssessmentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.browncoat.nike.NikeAlbumsAssessmentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NikeAlbumsTest;
+				TEST_TARGET_NAME = NikeAlbumsAssessment;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D540398825AD609E00557716 /* Build configuration list for PBXProject "NikeAlbumsTest" */ = {
+		D540398825AD609E00557716 /* Build configuration list for PBXProject "NikeAlbumsAssessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D54039B525AD60A000557716 /* Debug */,
@@ -677,7 +677,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D54039B725AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsTest" */ = {
+		D54039B725AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsAssessment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D54039B825AD60A000557716 /* Debug */,
@@ -686,7 +686,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D54039BA25AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsTestTests" */ = {
+		D54039BA25AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsAssessmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D54039BB25AD60A000557716 /* Debug */,
@@ -695,7 +695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D54039BD25AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsTestUITests" */ = {
+		D54039BD25AD60A000557716 /* Build configuration list for PBXNativeTarget "NikeAlbumsAssessmentUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D54039BE25AD60A000557716 /* Debug */,

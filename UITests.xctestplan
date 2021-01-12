@@ -14,9 +14,9 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:NikeAlbumsTest.xcodeproj",
+        "containerPath" : "container:NikeAlbumsAssessment.xcodeproj",
         "identifier" : "D54039AD25AD60A000557716",
-        "name" : "NikeAlbumsTestUITests"
+        "name" : "NikeAlbumsAssessmentUITests"
       }
     }
   ],

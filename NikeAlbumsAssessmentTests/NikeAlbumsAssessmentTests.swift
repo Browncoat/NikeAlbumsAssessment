@@ -1,5 +1,5 @@
 //
-//  NikeAlbumsTestTests.swift
+//  NikeAlbumsAssessmentTests.swift
 //  NikeAlbumsTestTests
 //
 //  Created by Nate Potter on 1/11/21.
@@ -7,9 +7,9 @@
 
 import XCTest
 import Combine
-@testable import NikeAlbumsTest
+@testable import NikeAlbumsAssessment
 
-class NikeAlbumsTestTests: XCTestCase {
+class NikeAlbumsAssessmentTests: XCTestCase {
     var cancellable: AnyCancellable?
     var interactor: AlbumsListInteractor?
     var viewController: MockViewController?
@@ -17,7 +17,7 @@ class NikeAlbumsTestTests: XCTestCase {
     override func setUpWithError() throws {
         viewController = MockViewController()
         interactor = AlbumsListInteractor(library: Library(client: MockClient<Feed>()))
-        interactor?.presenter = AlbumsListPresenter(viewController: viewController as! AlbumsListDisplayable)
+        interactor?.presenter = AlbumsListPresenter(viewController: viewController!)
     }
 
     override func tearDownWithError() throws {

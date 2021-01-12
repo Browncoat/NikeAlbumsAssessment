@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D540398C25AD609E00557716"
-               BuildableName = "NikeAlbumsTest.app"
-               BlueprintName = "NikeAlbumsTest"
-               ReferencedContainer = "container:NikeAlbumsTest.xcodeproj">
+               BuildableName = "NikeAlbumsAssessment.app"
+               BlueprintName = "NikeAlbumsAssessment"
+               ReferencedContainer = "container:NikeAlbumsAssessment.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,9 +42,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D54039A225AD60A000557716"
-               BuildableName = "NikeAlbumsTestTests.xctest"
-               BlueprintName = "NikeAlbumsTestTests"
-               ReferencedContainer = "container:NikeAlbumsTest.xcodeproj">
+               BuildableName = "NikeAlbumsAssessmentTests.xctest"
+               BlueprintName = "NikeAlbumsAssessmentTests"
+               ReferencedContainer = "container:NikeAlbumsAssessment.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -52,9 +52,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D54039AD25AD60A000557716"
-               BuildableName = "NikeAlbumsTestUITests.xctest"
-               BlueprintName = "NikeAlbumsTestUITests"
-               ReferencedContainer = "container:NikeAlbumsTest.xcodeproj">
+               BuildableName = "NikeAlbumsAssessmentUITests.xctest"
+               BlueprintName = "NikeAlbumsAssessmentUITests"
+               ReferencedContainer = "container:NikeAlbumsAssessment.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -74,9 +74,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D540398C25AD609E00557716"
-            BuildableName = "NikeAlbumsTest.app"
-            BlueprintName = "NikeAlbumsTest"
-            ReferencedContainer = "container:NikeAlbumsTest.xcodeproj">
+            BuildableName = "NikeAlbumsAssessment.app"
+            BlueprintName = "NikeAlbumsAssessment"
+            ReferencedContainer = "container:NikeAlbumsAssessment.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -91,9 +91,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D540398C25AD609E00557716"
-            BuildableName = "NikeAlbumsTest.app"
-            BlueprintName = "NikeAlbumsTest"
-            ReferencedContainer = "container:NikeAlbumsTest.xcodeproj">
+            BuildableName = "NikeAlbumsAssessment.app"
+            BlueprintName = "NikeAlbumsAssessment"
+            ReferencedContainer = "container:NikeAlbumsAssessment.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

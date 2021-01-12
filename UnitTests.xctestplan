@@ -4,7 +4,11 @@
       "id" : "8AFAB2C2-295F-4C47-B19E-61B015FB42E7",
       "name" : "Configuration 1",
       "options" : {
-
+        "targetForVariableExpansion" : {
+          "containerPath" : "container:NikeAlbumsAssessment.xcodeproj",
+          "identifier" : "D54039A225AD60A000557716",
+          "name" : "NikeAlbumsAssessmentTests"
+        }
       }
     }
   ],
@@ -19,9 +23,9 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:NikeAlbumsTest.xcodeproj",
+        "containerPath" : "container:NikeAlbumsAssessment.xcodeproj",
         "identifier" : "D54039A225AD60A000557716",
-        "name" : "NikeAlbumsTestTests"
+        "name" : "NikeAlbumsAssessmentTests"
       }
     }
   ],
