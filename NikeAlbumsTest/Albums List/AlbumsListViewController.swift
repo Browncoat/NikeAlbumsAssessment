@@ -8,6 +8,7 @@
 import UIKit
 import Combine
 
+// ViewController must conform to this protocol to revieve the viewModel from the presenter class
 protocol AlbumsListDisplayable {
     func display(viewModel: AlbumsModels.ViewModel)
     func display(error: Error)
@@ -31,6 +32,7 @@ class AlbumsListViewController: UIViewController, AlbumsListDisplayable {
             config.name = model.name
             config.artist = model.artist
             config.image = model.thumbnail
+            config.cancellable?.cancel()
             
             if model.thumbnail == nil {
                 config.cancellable = ImageLoader.shared.loadImage(path: model.albumArtworkUrl)
@@ -82,7 +84,7 @@ class AlbumsListViewController: UIViewController, AlbumsListDisplayable {
         
         customView.collectionView.dataSource = dataSource
         
-        // with more time I would construct the path with path componenet parameters
+        // with more time I would construct the path with url componenet parameters
         interactor?.fetch(request: AlbumsModels.Request(url: "/us/apple-music/top-albums/all/100/explicit.json"))
     }
     

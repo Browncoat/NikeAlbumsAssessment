@@ -34,9 +34,7 @@ class AlbumListView: UIView {
         self.init(frame: .zero)
         
         backgroundColor = .systemBackground
-        
-        directionalLayoutMargins = NSDirectionalEdgeInsets(top: padding, leading: padding, bottom: padding, trailing: padding)
-                
+                        
         addSubview(collectionView)
 
         NSLayoutConstraint.activate([
