@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "8AFAB2C2-295F-4C47-B19E-61B015FB42E7",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:NikeAlbumsTest.xcodeproj",
+      "identifier" : "D540398C25AD609E00557716",
+      "name" : "NikeAlbumsTest"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:NikeAlbumsTest.xcodeproj",
+        "identifier" : "D54039A225AD60A000557716",
+        "name" : "NikeAlbumsTestTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:NikeAlbumsTest.xcodeproj",
+        "identifier" : "D54039AD25AD60A000557716",
+        "name" : "NikeAlbumsTestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
