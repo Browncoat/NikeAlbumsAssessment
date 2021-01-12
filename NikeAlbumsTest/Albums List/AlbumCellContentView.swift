@@ -8,6 +8,7 @@
 import UIKit
 import Combine
 
+// Creating a custom contentView for the UICollectionViewListCell with a cancellable property to retain a reference to the downloading thumbnail image
 struct AlbumCellContentConfiguration: UIContentConfiguration, Hashable {
     var name: String?
     var artist: String?
@@ -42,6 +43,7 @@ class AlbumCellContentView: UIView, UIContentView {
         let label = UILabel()
         label.font = .preferredFont(forTextStyle: .title2)
         label.adjustsFontForContentSizeCategory = true
+        label.numberOfLines = 0
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -79,8 +81,7 @@ class AlbumCellContentView: UIView, UIContentView {
         addSubview(imageView)
         
         NSLayoutConstraint.activate([
-            imageView.topAnchor.constraint(equalTo: topAnchor),
-            imageView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            imageView.centerYAnchor.constraint(equalTo: centerYAnchor),
             imageView.leadingAnchor.constraint(equalTo: leadingAnchor),
             imageView.heightAnchor.constraint(equalToConstant: 70),
             imageView.widthAnchor.constraint(equalTo: imageView.heightAnchor)
@@ -96,6 +97,7 @@ class AlbumCellContentView: UIView, UIContentView {
             artistLabel.firstBaselineAnchor.constraint(equalToSystemSpacingBelow: nameLabel.bottomAnchor, multiplier: 1),
             artistLabel.leadingAnchor.constraint(equalTo: imageView.trailingAnchor, constant: 20),
             artistLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
+            artistLabel.lastBaselineAnchor.constraint(equalTo: bottomAnchor, constant: -10)
         ])
     }
     
