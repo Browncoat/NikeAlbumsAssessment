@@ -8,9 +8,9 @@
 import UIKit
 import Combine
 
-class AlbumsListViewInteractor {
+class AlbumsListInteractor {
     let worker: Librariable
-    var presenter: AlbumsListViewPresenter?
+    var presenter: AlbumsListPresenter?
     
     var subscriber: AnyCancellable?
         
