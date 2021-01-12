@@ -109,6 +109,8 @@ class AlbumDetailView: UIView {
     convenience init() {
         self.init(frame: .zero)
         
+        accessibilityIdentifier = "album_detail"
+        
         backgroundColor = .systemBackground
         
         directionalLayoutMargins = NSDirectionalEdgeInsets(top: 0, leading: padding, bottom: 0, trailing: padding)
