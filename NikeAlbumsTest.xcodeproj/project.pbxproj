@@ -23,6 +23,7 @@
 		D54039FB25AD655B00557716 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54039FA25AD655B00557716 /* Genre.swift */; };
 		D5403A0125AD65A200557716 /* Librariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A0025AD65A200557716 /* Librariable.swift */; };
 		D5403A0625AD65B800557716 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A0525AD65B800557716 /* Requestable.swift */; };
+		D5403A0C25AD65EB00557716 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5403A0B25AD65EB00557716 /* Library.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		D54039FA25AD655B00557716 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		D5403A0025AD65A200557716 /* Librariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Librariable.swift; sourceTree = "<group>"; };
 		D5403A0525AD65B800557716 /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		D5403A0B25AD65EB00557716 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				D540399225AD609E00557716 /* SceneDelegate.swift */,
 				D54039C925AD62B200557716 /* Albums List */,
 				D54039F125AD653100557716 /* Models */,
+				D5403A0A25AD65DB00557716 /* Services */,
 				D54039FF25AD658C00557716 /* Protocols */,
 				D540399925AD60A000557716 /* Assets.xcassets */,
 				D540399B25AD60A000557716 /* LaunchScreen.storyboard */,
@@ -174,6 +177,14 @@
 				D5403A0525AD65B800557716 /* Requestable.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D5403A0A25AD65DB00557716 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D5403A0B25AD65EB00557716 /* Library.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54039CB25AD62C700557716 /* AlbumsListViewController.swift in Sources */,
+				D5403A0C25AD65EB00557716 /* Library.swift in Sources */,
 				D54039E525AD63C300557716 /* AlbumsListPresenter.swift in Sources */,
 				D54039E025AD638B00557716 /* AlbumsListInteractor.swift in Sources */,
 				D54039DB25AD634F00557716 /* AlbumCellContentView.swift in Sources */,
