@@ -11,5 +11,6 @@
 "albums.detail.genres-title" = "Genres";
 "albums.detail.release-date-title" = "Release Date";
 "albums.detail.copyright-title" = "Copyright";
+"albums.common.whoops" = "Whoooops!";
 "albums.common.OK" = "OK";
 "albums.openURL.error.app-not-installed" = "Music application not installed";

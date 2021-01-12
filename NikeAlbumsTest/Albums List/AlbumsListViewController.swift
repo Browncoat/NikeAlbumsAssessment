@@ -99,8 +99,8 @@ class AlbumsListViewController: UIViewController, AlbumsListDisplayable {
     }
     
     func display(error: Error) {
-        let alertController = UIAlertController(title: "Whoooops!", message: error.localizedDescription, preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .default)
+        let alertController = UIAlertController(title: "albums.common.whoops", message: error.localizedDescription, preferredStyle: .alert)
+        let action = UIAlertAction(title: "albums.common.OK", style: .default)
         alertController.addAction(action)
         present(alertController, animated: true)
     }

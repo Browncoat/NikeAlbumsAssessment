@@ -44,6 +44,5 @@ I added a UI integration test to determine whether the AlbumDetailView is presen
 
 ### Error Handling
 
-I use try/catch blocks for synchronous operations. If there were asynchronous network requests I would also use the `Result<Value, Error>` enum in a completion block.
-
+Network request and serialization errors are passed to the Combine subscriber in the Interactor where an error is then passed to the presenter to be formatted for the view.
 
