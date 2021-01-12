@@ -24,11 +24,11 @@ I am comfortable using the Result<Value, Error> return type in completion blocks
 
 ### Dependency Injection
 
-I used Dependency Injection to decouple the http client from the viewcontrollers. I decided to use different classes for the RSS feed client and the IMageLoader client so that I could use a seperate NSURLSession for each. I cached the image downloads in a NSCache object in case the cache policy from the server for the images isn't correct.
+I used Dependency Injection to decouple the HTTP client and library classes from the viewcontrollers. I decided to use different classes for the RSS feed requests and the ImageLoader requests so that I could use a seperate NSURLSession for each if needed. I cached the image downloads in a NSCache object in case the cache policy from the server is not present.
 
 ### Single Responsibility
 
-I seperated the data retreival and the view presenation logic into an Interactor and Presenter class respectivly.
+I separated the data fetching and the view presentation logic into an Interactor and Presenter class respectively.
 
 ### Tests
 
@@ -36,13 +36,23 @@ Unit and UI tests are run as seperate Test Plans under Product > Test Plan
 
 ### Unit Tests
 
-I added unit tests to check that the values required for the assessent are present in the viewModel.
+I added unit tests to check that the values required for the assessment are present in the viewModel.
 
 ### UI Tests
 
-I added a UI integration test to determine whether the AlbumDetailView is presented when tapping a collection view cell.
+I added a UI integration test to determine whether the AlbumDetailView is displayed when tapping a collection view cell.
 
 ### Error Handling
 
-Network request and serialization errors are passed to the Combine subscriber in the Interactor where an error is then passed to the presenter to be formatted for the view.
+Network request and serialization errors are passed to the Combine subscriber. The Interactor class receives these events and passes them to the presenter to be formatted for the view.
+
+### TLS Certificate Error iOS 13+
+
+Due to the TLS server certificate change from Apple there is an `unable to determine interface type without an established connection` error when downloading images that cannot be fixed client side.
+
+### Xcode 12 Simulator Bug
+
+There is a bug in Xcode 12 simulator that consistently returns this error `nw_protocol_get_quic_image_block_invoke dlopen libquic failed` which is not present when run on the actual device.
+
+
 
