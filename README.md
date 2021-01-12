@@ -1,13 +1,3 @@
-# Nike Technical Assessment
-
-This is an iOS Technical Assessment for a Senior iOS Developer position at Nike.
-
-## Author
-
-Nate Potter
-503-449-5009
-nathanielpotter@gmail.com
-
 ## Dependencies
 
 This project requires Xcode 12 or higher with a deployment target of iOS 14.
